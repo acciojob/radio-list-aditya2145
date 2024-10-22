@@ -1,1 +1,10 @@
 /*  your css code here. If applicable */
+/* Apply red color to labels of even-positioned radio buttons */
+label:nth-of-type(2n) {
+    color: red;
+}
+
+/* Apply red color to radio buttons on even positions */
+input[type="radio"]:nth-of-type(2n) {
+    accent-color: red;
+}
